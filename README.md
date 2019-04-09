@@ -31,6 +31,10 @@ $ python3 wgen.py -chr=abc -min=1 -max=4 -out=output/wordlist.txt
 # or
 
 $ python3 wgen.py --chars=abc --min_length=1 --max_length=4 --output=output/wordlist.txt
+
+# or
+
+$python -3 wgen.py --chars=0123456789 --min_length=6 --max_length=6 --output=output/wordlist.txt
 ```
 
 ### Disclaimer
